@@ -33,7 +33,6 @@ function listData() {
 }
 
 function openFile(id, i, src) {
-  console.log(src)
   var xhr = new XMLHttpRequest();
   xhr.addEventListener('readystatechange', function(){
     if (xhr.readyState === xhr.DONE) {

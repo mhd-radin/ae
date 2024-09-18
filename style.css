@@ -91,3 +91,7 @@ code {
   padding: 5px;
   border-radius: 8px;
 }
+
+a button {
+  padding: 10px;
+}
