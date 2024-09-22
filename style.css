@@ -105,3 +105,7 @@ code {
 a button {
   padding: 10px;
 }
+
+strong, b {
+ color: #5CD4B6;
+}
