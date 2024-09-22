@@ -26,8 +26,8 @@ function listData() {
   FilesData.forEach(function(item, i) {
     var src = item.tag+'.' + item.id + '.md';
     elem.innerHTML += `<div class="box" id="${item.id}">
-          <div class="title">📦 ${item.title}</div>
-          <p class="link">>> ./${src}</p>
+          <div class="title">📄 ${item.title}</div>
+          <p class="link">>> ./${src} • ${item.tag}</p>
         </div>`;
     
     setTimeout(function(){
