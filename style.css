@@ -45,7 +45,9 @@ body {
   padding: 15px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   display: block;
 }
 
@@ -91,7 +93,8 @@ h3::before {
   margin-right: 10px;
 }
 
-ul li, a {
+ul li,
+a {
   color: #396F94;
 }
 
@@ -106,6 +109,23 @@ a button {
   padding: 10px;
 }
 
-strong, b {
- color: #5CD4B6;
+strong,
+b {
+  color: #5CD4B6;
+}
+
+pre code {
+  background: #42445A;
+  overflow: scroll;
+  color: #FFFFFF;
+  padding: 0;
+  border-radius: 0;
+}
+
+pre {
+  margin: 3px;
+  padding: 5px;
+  background: #42445A;
+  border-radius: 8px; 
+  overflow: scroll;
 }
