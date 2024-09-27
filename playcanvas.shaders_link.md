@@ -21,6 +21,10 @@
 - https://sketchfab.com/elike/collections/city-371c1947a01240dc8a33cb26020e1226
 - https://sketchfab.com/william.sayin/collections/city-assets-31b92166940a4099816a249f39200687
 - https://sketchfab.com/CrystalStarseed/collections/game-ready-city-30702135311f4737afd0ab5948e303be
+- https://sketchfab.com/DanielZhabotinsky
+- https://sketchfab.com/ardmation
+- https://sketchfab.com/3d-models/mazda-e-2200-pickup-truck-3d6fe0687b074e2bb57bd931a9621d58
+- https://sketchfab.com/3d-models/lightbody-pickup-85-low-poly-model-67beae18c3d24be68f9c8f0ec382d8e3
 
 ***
 ```
