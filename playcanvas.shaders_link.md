@@ -45,5 +45,21 @@ newEntity.set('template', modelTemplate);
 this.app.root.addChild(newEntity);
 ```
 
+
+```const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.intersectionRatio > 0.3) {
+      // Add your animation logic here
+      entry.target.classList.add('animate');
+    } else {
+      // Remove animation if needed when the element goes out of view
+      entry.target.classList.remove('animate');
+    }
+  });
+}, { threshold: 0.3 });
+
+const targetElement = document.querySelector('.target'); // Element to observe
+observer.observe(targetElement);```
+
 - [bsdo ui 01](https://www.behance.net/gallery/134128527/Facebook-reDesign?tracking_source=search_projects|Facebook+Redesign&l=2)
 - [bsdo ui 02](https://www.behance.net/gallery/87791525/facebook-redesign?tracking_source=search_projects|Facebook+Redesign&l=3)
